@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1513 788.7">
+<style>
+text {font-family: sans-serif;letter-spacing:1px}
+</style>
+<title>SVG in einem iFrame laden</title>
+  <defs id="defs4">
+    <linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+      <stop id="stop4390" style="stop-color:white" offset="0" />
+      <stop id="stop4392" style="stop-color:silver" offset="1" />
+    </linearGradient>
+  </defs>
+  <rect width="1512" height="788" x="0.3438" y="0.3173" style="fill:#e6e6e6;stroke:white;stroke-width:0.6582;stroke-linecap:butt;stroke-dashoffset:29.4" />
+<g style="fill:#efefef">
+  <rect width="392" height="168" rx="10" x="202" y="138" />
+  <rect width="460" height="168" rx="10" x="610" y="138" />
+  <rect width="411" height="168" rx="10" x="1088" y="138" />
+</g>
+  <rect width="252.1" height="46.51" rx="10" x="220.5" y="214.5" style="fill:url(#lg)" />
+  <path d="m 398.4,214.5 0,46.5 64.1,0 c 5.6,0 10,-4.4 10,-10 l 0,-26.5 c 0,-5.6 -4.4,-10 -10,-10 l -64.1,0 z" style="fill:#4e4e4e" />
+  <text x="243" y="247" style="font-size:32px">Reset</text>
+  <rect width="252.1" height="46.51" rx="10" x="725.1" y="214.5" style="fill:white" />
+  <path d="m 903,214.5 0,46.5 64.1,0 c 5.6,0 10,-4.4 10,-10 l 0,-26.5 c 0,-5.6 -4.4,-10 -10,-10 l -64.1,0 z" style="fill:#4e4e4e" />
+  <rect width="143.1" height="46.51" rx="5.676" x="1215" y="214.5" style="fill:white" />
+  <path d="m 1305,214.5 0,46.5 64,0 c 6,0 10,-4.4 10,-10 l 0,-26.5 c 0,-5.6 -4,-10 -10,-10 l -64,0 z" style="fill:#4e4e4e" />
+  <path d="m 342.2,159.9 -15.6,-27 31.2,0 z" transform="translate(91.29,92.64)" style="fill:#eee" />
+  <path d="m 342.2,159.9 -15.6,-27 31.2,0 z" transform="translate(596.9,92.64)" style="fill:#eee" />
+  <path d="m 342.2,159.9 -15.6,-27 31.2,0 z" transform="translate(997.6,92.64)" style="fill:#eee" />
+  <text x="236" y="174" style="font-size:36px">Einsatzwagen</text>
+  <text x="726" y="174" style="font-size:36px">Datum</text>
+  <text x="1216" y="174" style="font-size:36px">Schicht</text>
+  <rect width="422.6" height="300.5" rx="3.337" x="210.7" y="329" style="fill:#f6f6f6;stroke:#b3b3b3;stroke-width:1.6684" />
+  <text x="510" y="462" style="font-size:66px">48</text>
+  <text x="422" y="516" style="font-size:40px">Einsätze</text>
+  <path d="m 1394,1043 14,24 -28,0 z" transform="matrix(1.669,0,0,1.669,-1809,-1163)" style="fill:#3d4648;stroke:#b3b3b3;stroke-width:1" />
+  <text x="555" y="618" style="font-size:40px">3%</text>
+  <rect width="422.6" height="300.5" rx="3.337" x="642.8" y="329" style="fill:#f6f6f6;stroke:#b3b3b3;stroke-width:1.6684" />
+  <path d="m 1394,1043 14,24 -28,0 z" transform="matrix(1.669,0,0,1.669,-1360,-1162)" style="fill:#3d4648;stroke:#b3b3b3;stroke-width:1" />
+  <text x="1003.7487" y="618.7522" style="font-size:40px">8</text>
+  <g id="g4444" style="fill:none;stroke:black;stroke-width:1px"><path d="m 682.9,393.2 342.1,0" /><path d="m 682.9,442 342.1,0" /><path d="m 682.9,490.8 342.1,0" /><path d="m 682.9,539.7 342.1,0" /></g>
+  <g id="g4454" font-size="30"><text x="654" y="401">6</text><text x="654" y="449">4</text><text x="654" y="497">2</text><text x="654" y="545">0</text><text x="692" y="573">M</text><text x="743" y="573">M</text><text x="794" y="573">M</text><text x="845" y="573">M</text><text x="896" y="573">M</text><text x="947" y="573">M</text><text x="998" y="573">M</text></g>
+  <g id="g4478" fill="#00d49d"><rect width="28.93" height="114.1" x="691" y="415" /><rect width="28.93" height="35.36" x="741" y="494" /><rect width="28.93" height="70.7" x="791" y="459" /><rect width="28.93" height="69.09" x="841" y="460" /><rect width="28.93" height="35.03" x="891" y="494" /><rect width="28.93" height="115.7" x="941" y="414" /><rect width="28.93" height="152.6" x="991" y="377" /></g>
+  <rect width="422.6" height="300.5" rx="3.337" x="1078" y="329" style="fill:#f6f6f6;stroke:#b3b3b3;stroke-width:1.6684" />
+  <path d="m 1394,1043 14,24 -28,0 z" transform="matrix(1.669,0,0,-1.669,-940.3,2358)" style="fill:#3d4648;stroke:#b3b3b3;stroke-width:1" />
+  <text x="1423" y="618" style="font-size:40">2%</text>
+  <text x="1236" y="480" style="font-size:66.736px">71%</text>
+  <text x="741" y="247" style="font-size:32px">11.01.15</text>
+  <text x="1229" y="247" style="font-size:32px">2</text>
+  <rect width="178.2" height="493.7" rx="5.676" x="7.264" y="293.3" style="fill:#ececec" />
+  <g id="g4512" style="fill:none;stroke:#b3b3b3;stroke-width:1px">
+    <path d="M 23.33,447.3 167.6,445.6" />
+    <path d="M 23.33,587.4 167.6,585.7" />
+    <path d="M 23.33,717.2 167.6,715.5" />
+  </g>
+  <rect width="20" height="48" x="52" y="511" style="fill:#b3b3b3" />
+  <rect width="20" height="53" x="75" y="506" style="fill:#b3b3b3" />
+  <rect width="20" height="45" x="99" y="514" style="fill:#b3b3b3" />
+  <rect width="20" height="65" x="122" y="494" style="fill:#b3b3b3" />
+  <path d="m 35.18,501.1 24.31,-11.9 24.31,-3 23.9,8.6 26.4,-26.8" style="fill:none;stroke:#b3b3b3;stroke-width:4.0471;stroke-linecap:butt" />
+  <g id="g4530" fill="#b3b3b3">
+    <path d="m -78.56,247.7 a 4.572,4.572 0 1 1 -9.14,0 4.572,4.572 0 1 1 9.14,0 z" transform="matrix(1.349,0,0,1.349,244.5,135.5)" />
+    <path d="m -78.56,247.7 a 4.572,4.572 0 1 1 -9.14,0 4.572,4.572 0 1 1 9.14,0 z" transform="matrix(1.349,0,0,1.349,220.1,159.3)" />
+    <path d="m -78.56,247.7 a 4.572,4.572 0 1 1 -9.14,0 4.572,4.572 0 1 1 9.14,0 z" transform="matrix(1.349,0,0,1.349,195.7,151)" />
+    <path d="m -78.56,247.7 a 4.572,4.572 0 1 1 -9.14,0 4.572,4.572 0 1 1 9.14,0 z" transform="matrix(1.349,0,0,1.349,171.3,155.7)" />
+    <path d="m 89.45,345.6 c -0.52,0 -1.2,0.1 -1.8,0.1 l 0,20.3 -4.87,0 0,-19.7 c -11.47,2 -23.84,8.8 -28.03,21.2 -4.95,14.8 -6,18 -12,21.5 -6.07,3.4 -4.87,7.1 0,9.6 18.37,5.5 29.99,6.8 47.53,6.8 17.42,0 35.02,-0.4 48.42,-6.8 4.9,-2.5 6.1,-6.2 0,-9.6 -6,-3.5 -7,-6.7 -12,-21.5 -4.2,-12.4 -16.6,-19.4 -28.04,-21.4 l 0,19.9 -4.94,0 0,-20.3 c -0.6,0 -1.27,-0.1 -1.87,-0.1 l -1.2,0 -1.05,0 0,0 z" />
+  </g>
+  <text x="28.577106" y="274.40637" style="font-size:30px;fill:#255bbc">Dashboard</text>
+  <rect width="20" height="38.01" x="28.54" y="521.7" style="fill:#b3b3b3" />
+  <path d="m -78.56,247.7 a 4.572,4.572 0 1 1 -9.14,0 4.572,4.572 0 1 1 9.14,0 z" transform="matrix(1.349,0,0,1.349,146.9,166.6)" style="fill:#b3b3b3" />
+  <rect width="71.9" height="89.06" rx="3" x="52.9" y="608.4" style="fill:#b3b3b3" />
+  <path d="m 77.01,487.4 a 3.102,3.102 0 1 1 -6.2,0 3.102,3.102 0 1 1 6.2,0 z" transform="translate(-11.7,130.6)" style="fill:white" />
+  <path d="m 77.01,487.4 a 3.102,3.102 0 1 1 -6.2,0 3.102,3.102 0 1 1 6.2,0 z" transform="translate(-11.7,143.8)" style="fill:white" />
+  <path d="m 77.01,487.4 a 3.102,3.102 0 1 1 -6.2,0 3.102,3.102 0 1 1 6.2,0 z" transform="translate(-11.7,158.1)" style="fill:white" />
+  <path d="m 72.62,618 45.98,0" style="fill:none;stroke:white;stroke-width:5;stroke-linecap:round" />
+  <path d="m 72.62,631.2 45.98,0" style="fill:none;stroke:white;stroke-width:5;stroke-linecap:round" />
+  <path d="m 72.62,645.5 45.98,0" style="fill:none;stroke:white;stroke-width:5;stroke-linecap:round" />
+  <path d="m 127.4,549.8 a 12.23,12.23 0 1 1 -24.4,0 12.23,12.23 0 1 1 24.4,0 z" transform="translate(4.719,138)" style="fill:white;stroke:#b3b3b3;stroke-width:2" />
+  <path d="m 113.1,690.2 4,5.5 10.3,-13.2" style="fill:none;stroke:#b3b3b3;stroke-width:2;stroke-linecap:round" />
+  <g id="leftred">
+  <rect width="9.291" height="164.1" rx="3" x="2.409" y="132.1" style="fill:#f44d3e" />
+  <path transform="matrix(0.7783,0,0,1,6.994,135.8)" d="m 20.68,76.74 -23.278,13.44 0,-26.88 z" style="fill:#f44d3e" />
+  </g>
+  <rect width="1509" height="41.29" rx="2.733" x="0.3438" y="89.71" style="fill:#d1d1d1" />
+  <rect width="1509" height="88.78" rx="2.733" x="0.3438" y="0.9622" style="fill:#4BCC8A" />
+  <text x="35.443115" y="65.192192" style="font-size:56px;fill:white">DASHBOARD</text>
+<g>
+  <circle r="29.82" cy="204.5" cx="97.54" style="fill:none;stroke:#255bbc;stroke-width:7" /><circle r="3.5" cy="203.6" cx="77.34" style="fill:#255bbc;stroke-width:9" /><circle style="fill:#255bbc;stroke-width:9" cx="80.74" cy="192.8" r="3.5" /><circle r="3.5" cy="186.3" cx="90.14" style="fill:#255bbc;stroke-width:9" /><circle style="fill:#255bbc;stroke-width:9" cx="112.8" cy="192.8" r="3.5" /><circle r="3.5" cy="203.6" cx="116.5" style="fill:#255bbc;stroke-width:9" /><circle transform="matrix(0.9811,0.1936,-0.1936,0.9811,0,0)" r="6.212" cy="192.5" cx="136.8" style="fill:#255bbc;stroke-width:9" />
+  <path transform="matrix(0.1785,0.0353,-0.171,0.8664,112.5,-33.66)" d="m 181.4,242.6 19.9,34.5 -39.8,0 z" style="fill:#255bbc;stroke-width:7" />
+</g>
+<a xlink:href="https://www.mediaevent.de/javascript/animation.html">
+<g id="wheel" transform="translate(1300,460)">
+  <path d="m -0.83,-123.9 c -66,0 -120.97,54.91 -120.97,122.51 C -121.8,65.9 -66.83,121 -0.83,121 67.2,121 121.2,65.9 121.2,-1.39 c 0,-67.6 -54,-122.51 -122.03,-122.51 z m 0,23.5 c 56.03,0 99.03,44.11 99.03,99.01 0,55.8 -43,99.09 -99.03,99.09 -55,0 -98,-43.29 -98,-99.09 0,-54.9 43,-99.01 98,-99.01 z" style="fill:#ffffff" />
+  <path d="m 1.17,-123.9 0,23.5 c 54.03,0.41 97.03,44.51 97.03,99.01 0,55.8 -43,99.09 -99.03,99.09 -55,0 -97,-41.69 -98,-97.39 l -22.97,0 C -119.8,67.7 -66.83,121 -0.83,121 67.2,121 121.2,65.9 121.2,-1.39 121.2,-68.69 67.2,-123.4 1.17,-123.9 Z" style="fill:#4bcc8a" />
+</g>
+</a>
+
+<script>
+var wheel = document.getElementById('wheel');
+var angle = 0;
+var leftred = document.getElementById("leftred");
+var stepper = 0;
+wheel.setAttribute('transform','translate(1300,460) rotate(30)');
+var rotatewheel = setInterval ( function () {
+	angle = angle + 1;
+	wheel.setAttribute('transform','translate(1300,460) rotate(' + angle + ')');
+	if (angle == 360) {
+		angle = 0;
+	
+		leftred.setAttribute("transform", "translate(0," + stepper + ")");
+		stepper = stepper + 150;
+		if (stepper>450) {
+			stepper = 0
+		}
+	}
+}, 10);
+</script>
+</svg>
