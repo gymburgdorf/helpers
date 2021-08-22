@@ -4,26 +4,3 @@ body {
   margin: auto;
   font-family:  'Segoe UI', Tahoma, Verdana, sans-serif;
 }
-
-section {
-  margin: 1em 0;
-}
-
-div {
-  margin: 0.5em 0;
-  background-color: rgba(200, 220, 240, 0.2);
-  padding: 0.5em;
-}
-
-span {
-  border: 1px solid #789;
-  background-color: rgba(200, 240, 220, 0.2);
-}
-
-img {
-  width: 30%;
-}
-
-td {
-  border: 2px solid #789;
-}
