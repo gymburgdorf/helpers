@@ -41,7 +41,7 @@ dfn, code {
   font-style: normal;
   white-space: nowrap;
 }
-code {display: block; white-space: pre-wrap;}
+code {display: block; white-space: pre; overflow-x: auto;}
 
 div {flex-grow: 1;}
 img {max-width: 30%;}
