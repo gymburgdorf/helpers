@@ -28,6 +28,8 @@ img {
 
 td {
   border: 2px solid #789;
+  border-collapse: collapse;
+  padding: 0.5em 1em;
 }
 
 h1 {text-decoration: #eeffee underline;}
