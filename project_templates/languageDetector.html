@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Language Detector</title>
+	<link rel="stylesheet" href="https://gymburgdorf-ef23.github.io/helpers/basicstyle.css"></link>
+	<style>
+		.sampletext {
+			background-color: rgb(220, 230, 240);
+			width: 100%;
+			height: 50vh;
+			padding: 0.5em;
+		}
+	</style>
+</head>
+<body>
+	<h1>Language Detector</h1>
+	<div class="wrap">
+		<textarea class="sampletext" placeholder="Please enter your text."></textarea>
+	</div>
+	<script>
+		let textField = document.querySelector(".sampletext") 
+		
+		textField.addEventListener("input", analyzeText)
+		
+		function analyzeText() {
+			const text = textField.value
+			console.log(text)
+		}
+		
+	
+	</script>
+</body>
+</html>

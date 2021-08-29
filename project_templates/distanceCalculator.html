@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Distance Calculator</title>
+	<link rel="stylesheet" href="https://gymburgdorf-ef23.github.io/helpers/basicstyle.css"></link>
+	<style>
+		.map {
+			background-image: url('burgdorf.png');
+			width: 800px;
+			height: 372px;
+			background-size: cover;
+		}
+		.route {
+			stroke-width: 3px;
+			stroke: rgb(255,240,200);
+			fill: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Distance Calculator</h1>
+	<div class="map">
+		<svg class="map-svg" width=800 height=372>
+			<path class="route" d = "M 373,191 L 347,211 334,184"></path>
+		</svg>
+	</div>
+	<div>
+		The distance of your route is: 
+		<span> ... </span> m
+	</div>
+
+	<script>
+		const mapSvg = document.querySelector(".map-svg")
+		mapSvg.addEventListener("click", addPoint)
+		mapSvg.addEventListener("contextmenu", reset)
+
+		let points = []
+
+		function addPoint(event) {
+			var rect = mapSvg.getBoundingClientRect();
+			points.push({
+				x: event.clientX - rect.left,
+				y: event.clientY - rect.top
+			})
+			render()
+		}
+
+		function reset() {
+			//todo
+		}
+
+		function render() {
+			console.log(points)
+			//todo
+		}
+	
+	</script>
+</body>
+</html>

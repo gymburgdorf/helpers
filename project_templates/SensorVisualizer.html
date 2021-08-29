@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather Display</title>
+	<link rel="stylesheet" href="https://gymburgdorf-ef23.github.io/helpers/basicstyle.css"></link>
+</head>
+<body>
+	<h1>Current weather at Burgdorf, Switzerland</h1>
+	<div>
+		Create your weather display here
+	</div>
+	<script>
+		const apiUrl = "https://api.3e8.ch/weather"
+		fetch(apiUrl).then(r=>r.json()).then(displayWeather)
+
+		function displayWeather(data) {
+			console.log(data)
+		}
+	</script>
+</body>
+</html>
