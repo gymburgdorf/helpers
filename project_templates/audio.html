@@ -54,7 +54,7 @@
 
 	function show() {
 		analyser.getFloatTimeDomainData(databuffer)
-		document.querySelector(".ouput").textContent = databuffer.slice(0,10).join(", ");
+		document.querySelector(".output").textContent = databuffer.slice(0,10).join(", ");
 		requestAnimationFrame(show)
 	}
 
