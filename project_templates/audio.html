@@ -10,12 +10,10 @@
 </head>
 <body>
 	<h1>Audio</h1>
-	<audio src="Audio_beats.mp3"></audio>
+	<audio src="https://gymburgdorf-ef23.github.io/helpers/examples/Audio_beats.mp3"></audio>
 	<button class="mic">Use Microphone</button>
 	<button class="useFile">Use Audio File</button>
-	<div>
-		<svg></svg>
-	</div>
+	<div class="output"></div>
 	<script>
 	
 	let context, analyser
@@ -30,7 +28,7 @@
 	const micButton = document.querySelector(".mic")
 	micButton.addEventListener("click", useMic)
 
-    async function useMic() {
+	async function useMic() {
 		setUpAudioContext()
 		const micStream = await navigator.mediaDevices.getUserMedia({audio: true, video: false})
 		const source = context.createMediaStreamSource(micStream);
@@ -38,7 +36,7 @@
 		source.connect(gainNode)
 		gainNode.connect(analyser)
 		show()
-    }
+	}
 
 	const audioButton = document.querySelector(".useFile")
 	audioButton.addEventListener("click", useAudio)
@@ -54,21 +52,9 @@
 		show()
 	}
 
-	let smooth = 0
 	function show() {
 		analyser.getFloatTimeDomainData(databuffer)
-		let sum = 0
-		for(let d of databuffer) {
-			sum += d*d
-		}
-		smooth = Math.max(sum, 0.95*smooth)
-		const output = document.querySelector("svg")
-		output.innerHTML = ""
-		for(let l = 0; l < smooth; l+=2) {
-			output.innerHTML += `<circle
-				cx=${2+3*l} cy="20" r="2"
-				fill="rgb(${8*l}, ${200-2*l}, ${200-2*l})"></circle>`
-		}
+		document.querySelector(".ouput").textContent = databuffer.slice(0,10).join(", ");
 		requestAnimationFrame(show)
 	}
 

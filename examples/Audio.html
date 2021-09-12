@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Audio</title>
+	<link rel="stylesheet" href="https://gymburgdorf-ef23.github.io/helpers/basicstyle.css"></link>
+	<style>
+		html {background-color: #444;}
+	</style>
+</head>
+<body>
+	<h1>Audio</h1>
+	<audio src="Audio_beats.mp3"></audio>
+	<button class="mic">Use Microphone</button>
+	<button class="useFile">Use Audio File</button>
+	<div>
+		<svg></svg>
+	</div>
+	<script>
+	
+	let context, analyser
+	const databuffer = new Float32Array(1024)
+
+	function setUpAudioContext() {
+		context = new AudioContext();
+		analyser = context.createAnalyser()
+		analyser.ftSize = 1024
+	}
+
+	const micButton = document.querySelector(".mic")
+	micButton.addEventListener("click", useMic)
+
+    async function useMic() {
+		setUpAudioContext()
+		const micStream = await navigator.mediaDevices.getUserMedia({audio: true, video: false})
+		const source = context.createMediaStreamSource(micStream);
+		const gainNode = new GainNode(context, {gain: 10})
+		source.connect(gainNode)
+		gainNode.connect(analyser)
+		show()
+    }
+
+	const audioButton = document.querySelector(".useFile")
+	audioButton.addEventListener("click", useAudio)
+
+	function useAudio() {
+		setUpAudioContext()
+		const myAudio = document.querySelector('audio');
+		myAudio.play()
+		const source = context.createMediaElementSource(myAudio);
+		source.connect(analyser)
+		analyser.connect(context.destination)
+		myAudio.currentTime = 37;
+		show()
+	}
+
+	let smooth = 0
+	function show() {
+		analyser.getFloatTimeDomainData(databuffer)
+		let sum = 0
+		for(let d of databuffer) {
+			sum += d*d
+		}
+		smooth = Math.max(sum, 0.95*smooth)
+		const output = document.querySelector("svg")
+		output.innerHTML = ""
+		for(let l = 0; l < smooth; l+=2) {
+			output.innerHTML += `<circle
+				cx=${2+3*l} cy="20" r="2"
+				fill="rgb(${8*l}, ${200-2*l}, ${200-2*l})"></circle>`
+		}
+		requestAnimationFrame(show)
+	}
+
+	</script>
+</body>
+</html>
