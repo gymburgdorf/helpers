@@ -6,7 +6,7 @@ function enhance() {
 		heading = s.querySelector("h2").outerHTML
 		code = s.innerHTML.slice(s.innerHTML.indexOf("</h2>") + 5)
 		s.innerHTML = `
-			<details>
+			<details open>
 				<summary>${heading}</summary>
 					${code}
 				<h3>Code:</h3>
