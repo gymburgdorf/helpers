@@ -30,7 +30,7 @@
 	const micButton = document.querySelector(".mic")
 	micButton.addEventListener("click", useMic)
 
-    async function useMic() {
+	async function useMic() {
 		setUpAudioContext()
 		const micStream = await navigator.mediaDevices.getUserMedia({audio: true, video: false})
 		const source = context.createMediaStreamSource(micStream);
@@ -38,7 +38,7 @@
 		source.connect(gainNode)
 		gainNode.connect(analyser)
 		show()
-    }
+	}
 
 	const audioButton = document.querySelector(".useFile")
 	audioButton.addEventListener("click", useAudio)
