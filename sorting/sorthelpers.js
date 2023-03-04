@@ -9,7 +9,7 @@ export function createNumberList(n) {
 export function createObjectList(n) {
     let list = []
     for(let i = 0; i < n; i++) {
-        list.push({name: getRandomName, age: getRandomInt(1, 99)})
+        list.push({name: getRandomName(), age: getRandomInt(1, 99)})
     }
 	return list
 }
