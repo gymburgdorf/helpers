@@ -18,7 +18,7 @@ export function renderList(list) {
     let element = document.querySelector(".output")
     if(!element) {
         document.body.insertAdjacentHTML("beforeend", `<div class="output"></div>`)
-        document.querySelector(".output")
+        element = document.querySelector(".output")
     }
     element.innerHTML = list.slice(0,50).map(x=>`<span> ${JSON.stringify(x)} </span>`)
 }
