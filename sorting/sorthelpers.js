@@ -14,13 +14,13 @@ export function createObjectList(n) {
 	return list
 }
 
-export function renderList(list) {
+export function renderList(list, max=100) {
     let element = document.querySelector(".output")
     if(!element) {
         document.body.insertAdjacentHTML("beforeend", `<div class="output"></div>`)
         element = document.querySelector(".output")
     }
-    element.innerHTML = list.slice(0,50).map(x=>`<span> ${JSON.stringify(x)} </span>`)
+    element.innerHTML = list.slice(0,max).map(x=>`<span>${JSON.stringify(x)}</span>`).join("")
 }
 
 export function swap(list, i, j) {
