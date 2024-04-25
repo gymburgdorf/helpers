@@ -13,6 +13,8 @@ body {
   font-family:  'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+input, textarea, button {font-family: inherit;}
+
 
 
 h1 {text-decoration: #eeffee underline;}
