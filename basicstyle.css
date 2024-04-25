@@ -13,7 +13,7 @@ body {
   font-family:  'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
-input, textarea, button {font-family: inherit;}
+input, textarea, button, select, option {font-family: inherit;}
 
 
 
